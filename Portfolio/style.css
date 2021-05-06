@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p
+{
+    font-weight: 300;
+    color: #111;
+}
+
+
+
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img.jpg);
+    background-size: cover;
+}
+
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+}
+
+.banner .content h2
+{
+    font-size: 5em;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.banner .content p
+{
+    font-size: 1em;
+    color: #fff;
+}
+
+.btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover
+{
+    letter-spacing: 6px;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky
+{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+header .logo
+{
+    color: #3b79ca;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+header.sticky .logo
+{
+    color: #111;
+}
+
+header .logo span
+{
+    color: #ff0157;
+}
+
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a
+{
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+
+header.sticky .navigation li a
+{
+    color: #111;
+}
+
+header.sticky .navigation li a:hover
+{
+    color: #ff0157;
+}
+
+
+section
+{
+    padding: 100px;
+}
+
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50
+{
+    position: relative;
+    width: 48%;
+}
+
+.row .col60
+{
+    position: relative;
+    width: 85%;
+}
+
+.titleText
+{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.titleText span
+{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.row .col50 p
+{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.8;
+}
+
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    /*height: 100%;*/
+}
+
+.row .col50 .imgBx img
+{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hobby
+{
+    background: url(img10.jpg);
+    background-size: cover; 
+}
+
+.hobby .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.hobby .content .box
+{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.8);
+
+}
+
+/*adjust the image into the white box*/
+.hobby .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.hobby .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hobby .content .box .text
+{
+    padding: 15px 0 5px;
+    text-align: center;
+}
+
+.hobby .content .box .text h3
+{
+    font-weight: 400;
+    color: #111;
+}
+
+.contact
+{
+    background: url(img10.jpg);
+    background-size: cover;
+}
+
+.contactForm
+{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+.contactForm p
+{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}

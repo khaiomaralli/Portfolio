@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="https://www.instagram.com/khaiomaralli/?hl=en" class="logo" target="_blank">@Khaiomaralli</a>
+    <ul class="navigation">
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#hobby">Hobby</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</header>
+
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>MY PORTFOLIO</h2>
+            <p>Welcome to my Portfolio</p>
+        </div>
+    </section><br><br>
+
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><b>About Me</b></h2><br>
+                <p>Hi, my name is Ak Muhd Khairuddin bin Pg Hj Omar Alli. I'm 25 years old. I'm just an ordinary guy with a bit of introvert personality.
+                    I enjoys nature and doing outdoor activities during weekends. 
+                    On weekdays, i like to lay on my bed while watching movies on a gloomy and rainy days.</p><br>
+                <p>A little bit about myself, i'm awkward around ladies, addicted to spicy foods, enjoy playing rpg games, enjoy outdoor activities, 
+                    been learning information technology since primary school, passionate about programming, web & app development and database. 
+                    My dream is to be a full-stack web developer.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="img4.jpg">
+                </div>
+            </div>
+        </div>
+    </section><br><br><hr>
+
+
+    <section class="hobby" id="hobby">
+        <div class="title">
+            <h2 class="titleText"><b>My Hobbies</b></h2><br>
+            <p>I like doing outdoor activities during the weekend and watching movies during my free time.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+            <div class="imgBx">
+                <img src="img2.JPG">
+            </div>
+            <div class="text">
+                <h3>Gym Workout</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img3.JPG">
+            </div>
+            <div class="text">
+                <h3>Hiking</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img5.jpg">
+            </div>
+            <div class="text">
+                <h3>Running</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img6.jpg">
+            </div>
+            <div class="text">
+                <h3>Sleeping</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img8.jpg">
+            </div>
+            <div class="text">
+                <h3>Watching Movies</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img7.jpg">
+            </div>
+            <div class="text">
+                <h3>Gaming</h3>
+            </div>
+        </div>
+      </div>
+    </section><br><br><hr>
+
+    <section class="education" id="education">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><b>Educational Background</b></h2><br>
+                <p>I've gradudated from Kolej International Graduate Studies (IGS) in 2021, taking Bachelor of Science (Hons) in Information Technology.</p><br>
+                <p><i><b>Bachelor of Science (Hons) in Information Technology - CGPA 3.2</b></i></p>
+                <p>INTERNATION GRADUATE STUDIES (IGS), 2021</p><br>
+                <p><i><b>Diploma in Information Technology - CGPA 2.6</b></i></p>
+                <p>INTERNATION GRADUATE STUDIES (IGS), 2016</p><br>
+                <p><i><b>O Level Examination - 4 'O's</b></i></p>
+                <p>SEKOLAH MENENGAH LAMBAK KIRI, 2013</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="img9.jpg">
+                </div>
+            </div>
+        </div>
+    </section><br><br><hr>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><b>My Contact</b></h2>
+        </div>
+        <div class="contactForm">
+            <p><b>Contact Number</b> : +673 721 5282</p><br>
+            <p><b>Phone Number</b>   : +673 239 3292</p><br>
+            <p><b>Email</b>          : awangku.khai@gmail.com</p><br>
+            <p><b>Instagram</b>         : @khaiomaralli</p>
+        </div>
+    </section>
+
+
+    <script type="text/javascript">
+    window.addEventListener('scroll', function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+</body>
+</html>
